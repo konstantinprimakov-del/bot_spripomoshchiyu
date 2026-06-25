@@ -99,7 +99,6 @@
       hitCtx.clearRect(0, 0, hitCanvas.width, hitCanvas.height);
       hitCtx.drawImage(img, 0, 0);
       maskReady = true;
-      status.textContent = 'PNG загружен. Нажми по непрозрачной части.';
     }
 
     function isOpaqueClick(event, img, alphaThreshold = 20) {
